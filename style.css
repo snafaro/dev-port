@@ -201,3 +201,54 @@ main{
 .card > img{
     width: 44px;
 }
+
+/* resume section */
+
+.resume-sec{
+    margin-top: 130px;
+
+}
+
+.resume-container{
+    display: flex;
+    gap: 20px;
+}
+
+.education , .experience{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.education hr , .experience hr{
+    margin: 30px 0;
+}
+
+.edu-card , .exp-card{
+    margin-top: 30px;
+}
+
+.edu-card h2 , .exp-card h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.edu-card h3, .exp-card h3{
+    font-size: 20px;
+    font-weight: 600;
+    color:#757575;
+    margin-top: 10px;
+}
+
+.edu-card p, .exp-card p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#757575;
+    margin-top: 10px;
+    line-height: 28px;
+}
+
+.download-btn {
+    margin-top: 50px;
+}
